@@ -181,7 +181,21 @@ public class Rpg
 
         if (choice == 1)
         {
-            
+            do
+            {
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                Text.Message($"\nVocê atacou o Goblin e causou {damage} de dano!");
+                enemyHP -= damage;
+                Text.Message($"\nO Goblin tem {enemyHP} de vida restante.");
+                Console.ResetColor();
+
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Text.Message($"\nO Goblin atacou você e causou {enemyDamage} de dano!");
+                hP -= enemyDamage;
+                Text.Message($"\nVocê tem {hP} de vida restante.");
+                Console.ResetColor();
+            } while (hP > 0 && enemyHP > 0);
+
         }
     }
 
