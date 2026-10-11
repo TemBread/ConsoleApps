@@ -56,8 +56,6 @@ public class Rpg
                 }
             }
         }
-        
-        
     }
     
     private void Attributes()
@@ -164,6 +162,29 @@ public class Rpg
         }
     }
     
+    int enemyHP;
+    int enemyDamage;
+    private void EnemyGoblin()
+    {
+        enemyHP = 20;
+        enemyDamage = 5;
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Text.Message("\n--- Um Goblin apareceu! ---");
+        Text.Info("""
+        Ele tem 20 de vida, 5 de dano por golpe e 2 de resistência.
+
+        O que você deseja fazer?
+        1 - Atacar
+        2 - Fugir
+        """);
+        int choice = Convert.ToInt32(Text.Lead());
+
+        if (choice == 1)
+        {
+            
+        }
+    }
+
     public void Apply()
     {
         Dice();
