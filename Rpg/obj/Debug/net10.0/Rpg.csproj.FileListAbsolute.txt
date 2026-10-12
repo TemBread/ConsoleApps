@@ -1,0 +1,15 @@
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\bin\Debug\net10.0\Rpg.exe
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\bin\Debug\net10.0\Rpg.deps.json
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\bin\Debug\net10.0\Rpg.runtimeconfig.json
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\bin\Debug\net10.0\Rpg.dll
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\bin\Debug\net10.0\Rpg.pdb
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\obj\Debug\net10.0\Rpg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\obj\Debug\net10.0\Rpg.AssemblyInfoInputs.cache
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\obj\Debug\net10.0\Rpg.AssemblyInfo.cs
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\obj\Debug\net10.0\Rpg.csproj.CoreCompileInputs.cache
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\obj\Debug\net10.0\Rpg.sourcelink.json
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\obj\Debug\net10.0\Rpg.dll
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\obj\Debug\net10.0\refint\Rpg.dll
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\obj\Debug\net10.0\Rpg.pdb
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\obj\Debug\net10.0\Rpg.genruntimeconfig.cache
+C:\Users\amast\Códigos C#\ConsoleApps\Rpg\obj\Debug\net10.0\ref\Rpg.dll

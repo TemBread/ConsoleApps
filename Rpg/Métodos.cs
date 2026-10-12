@@ -75,6 +75,7 @@ public class Rpg
             Text.Info("\nDigite seu HP: ");
             Console.ResetColor(); 
             hP = Convert.ToInt32(Text.Lead());
+            diceValue -= hP;
 
             if (hP > diceValue)
             {
@@ -95,6 +96,7 @@ public class Rpg
             Text.Info("\nDigite seu MP: ");
             Console.ResetColor();
             mP = Convert.ToInt32(Text.Lead());
+            diceValue -= mP;
 
             if (mP > diceValue)
             {
@@ -114,6 +116,7 @@ public class Rpg
             Text.Info("\nDigite seu QI: ");
             Console.ResetColor();
             iQ = Convert.ToInt32(Text.Lead());
+            diceValue -= iQ;
 
             if (iQ > diceValue)
             {
@@ -133,6 +136,7 @@ public class Rpg
             Text.Info("\nDigite seu dano: ");
             Console.ResetColor();
             damage = Convert.ToInt32(Text.Lead());
+            diceValue -= damage;
 
             if (damage > diceValue)
             {
@@ -140,7 +144,7 @@ public class Rpg
                 Text.Message($"O valor não deve ser maior do que {diceValue}");
                 Console.ResetColor();
             }
-            
+
             Console.ForegroundColor = ConsoleColor.Green;
             Text.Message($"(você tem {diceValue} pontos para usar)");
             Console.ResetColor();
