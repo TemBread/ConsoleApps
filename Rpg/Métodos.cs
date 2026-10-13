@@ -82,7 +82,11 @@ public class Rpg
                 Text.Message($"O valor não deve ser maior do que {diceValue}");
                 Console.ResetColor();
             }
-            
+           else
+            {
+                diceValue -= hP;
+            }
+
             Console.ForegroundColor = ConsoleColor.Green;
             Text.Message($"(você tem {diceValue} pontos para usar)");
             Console.ResetColor();
@@ -102,6 +106,7 @@ public class Rpg
                 Text.Message($"O valor não deve ser maior do que {diceValue}");
                 Console.ResetColor();
             }
+            diceValue -= mP;
             
             Console.ForegroundColor = ConsoleColor.Green;
             Text.Message($"(você tem {diceValue} pontos para usar)");
@@ -121,7 +126,8 @@ public class Rpg
                 Text.Message($"O valor não deve ser maior do que {diceValue}");
                 Console.ResetColor();
             }
-            
+            diceValue -= iQ;
+
             Console.ForegroundColor = ConsoleColor.Green;
             Text.Message($"(você tem {diceValue} pontos para usar)");
             Console.ResetColor();
@@ -140,6 +146,7 @@ public class Rpg
                 Text.Message($"O valor não deve ser maior do que {diceValue}");
                 Console.ResetColor();
             }
+            diceValue -= damage;
             
             Console.ForegroundColor = ConsoleColor.Green;
             Text.Message($"(você tem {diceValue} pontos para usar)");
