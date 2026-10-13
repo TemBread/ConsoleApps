@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amast\\Códigos C#\\ConsoleApps\\Rpg\\Rpg.csproj",
+      "projectUniqueName": "C:\\Códigos C#\\ConsoleApps\\Rpg\\Rpg.csproj",
       "projectName": "Rpg",
-      "projectPath": "C:\\Users\\amast\\Códigos C#\\ConsoleApps\\Rpg\\Rpg.csproj",
+      "projectPath": "C:\\Códigos C#\\ConsoleApps\\Rpg\\Rpg.csproj",
       "packagesPath": "C:\\Users\\amast\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amast\\Códigos C#\\ConsoleApps\\Rpg\\obj\\",
+      "outputPath": "C:\\Códigos C#\\ConsoleApps\\Rpg\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
